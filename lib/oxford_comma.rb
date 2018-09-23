@@ -5,6 +5,7 @@ def oxford_comma(array)
   when array.length == 2 
     array.first + ' and ' + array.last 
   else 
-    
+    array.each_with_index do |ele, index|
+    end 
   end 
 end
