@@ -5,5 +5,6 @@ def oxford_comma(array)
   when array.length == 2 
     array.first + ' and ' + array.last 
   else 
+    
   end 
 end
