@@ -3,7 +3,7 @@ def oxford_comma(array)
   when 1 
     puts array.first 
   when 2 
-    array.first + ', and ' + array.last 
+    array.first + ' and ' + array.last 
   else 
     list = array[0..-2].join(', ')
     list + ' and ' + array[-1]
