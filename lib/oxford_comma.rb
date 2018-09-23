@@ -1,7 +1,7 @@
 def oxford_comma(array)
   case array.length 
   when 1 
-    puts array.first 
+    array.first 
   when 2 
     array.first + ' and ' + array.last 
   else 
