@@ -1,8 +1,8 @@
 def oxford_comma(array)
   case array.length 
-  array.length == 1 
+  when 1 
     puts array.first 
-  when array.length == 2 
+  when 2 
     array.first + ' and ' + array.last 
   else 
     list = array[0..-2].join(', ')
